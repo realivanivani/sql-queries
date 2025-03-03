@@ -1,5 +1,13 @@
----- This query is used when you are looking for a column with a given or a similar name in the whole  database schema
----- You can use to filter both column name and table name
+/*
+======================================================================================
+COLUMN NAME SEARCH QUERY
+======================================================================================
+This query is used when you are looking for a column with a given or a similar name in the whole  database schema
+You can use to filter both column name and table name
+
+Created: Dec 2019
+======================================================================================
+*/
 
 -- Use the specified database named 'amg_database'.
 USE amg_database;
