@@ -13,8 +13,7 @@ How it works:
 3. Searches each identified column for values containing "Puerto"
 4. Returns all matches with their table and column names
 
-Author: Database Team
-Created: March 2025
+Created: Jan 2023
 ======================================================================================
 */
 
