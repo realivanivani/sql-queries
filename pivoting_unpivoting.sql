@@ -1,3 +1,9 @@
+-- Pivoting in SQL is a technique used to transform rows into columns, making it easier to analyze data in a cross-tabular format.
+-- This query demonstrates two approaches to pivoting:
+-- 1. The "classical way" using CASE statements and aggregation.
+-- 2. The built-in PIVOT operator (used in SQL Server and Oracle).
+-- The purpose of this query is to count the number of films per rating for each actor, presenting the results in a pivoted format.
+
 -- PIVOTING IN CLASSICAL WAY
 SELECT
   first_name, last_name,
@@ -13,7 +19,6 @@ GROUP BY actor_id
 
 
 -- in SQL Server and Oracle
-
 -- PIVOTING
 SELECT something, something
 FROM some_table
