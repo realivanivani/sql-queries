@@ -18,7 +18,7 @@ Created: Jan 2023
 */
 
 -- Select the database to search
-use amg_database
+USE AMG_DATABASE
 
 -- Remove temporary tables if they already exist (prevents errors on reruns)
 DROP TABLE IF EXISTS #tempTableColumn
